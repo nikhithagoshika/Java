@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 
-public class LargestOfThreeNumbers {
+public class Q11_LargestOfThreeNumbers {
     public static void main(String[] args){
         int a=54,b=89,c=73;
         if (a > b) {

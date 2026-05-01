@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 
-public class PalindromeNumber {
+public class Q10_PalindromeNumber {
     public static void main(String[] args)
     {
         int n=12215;
