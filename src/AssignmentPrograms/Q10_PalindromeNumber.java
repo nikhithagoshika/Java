@@ -3,7 +3,7 @@ package AssignmentPrograms;
 public class Q10_PalindromeNumber {
     public static void main(String[] args)
     {
-        int n=12215;
+        int n=1221;
         int Original=n;
         int rev=0;
         int rem;
