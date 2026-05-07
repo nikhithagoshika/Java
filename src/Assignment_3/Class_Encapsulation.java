@@ -3,8 +3,8 @@ package Assignment_3;
 public class Class_Encapsulation {
     private double balance=5000;
     private int ATM_pin=1234;
-    private void validatePin(int enteredPin){
-        this.ATM_pin=enteredPin;
+    private boolean validatePin(int enteredPin){
+        return this.ATM_pin==enteredPin;
     }
     public void DepositMoney(int enteredPin, double amount){
         if(ATM_pin!=enteredPin){
