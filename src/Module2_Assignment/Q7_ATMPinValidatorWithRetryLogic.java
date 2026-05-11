@@ -18,11 +18,11 @@ public class Q7_ATMPinValidatorWithRetryLogic {
                 break;
             }
             else{
-                System.out.println("Incorrect PIN." + (3 - attempt) + " attempt(s) remaining.");
+                System.out.println("Incorrect PIN." +(3-attempt)+ "attempt(s) remaining.");
             }
             attempt++;
         }
-        if (attempt>3 && enteredPIN!=correctPIN) {
+        if(attempt>3 && enteredPIN!=correctPIN) {
             System.out.println("Card Blocked. Contact your bank.");
         }
     }
